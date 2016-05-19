@@ -55,11 +55,11 @@ The following tables are required:
 * invCategories
 * invFlags
 * invGroups
-* invTraits
-* invTypes
 * invMarketGroups
 * invMetaGroups
 * invMetaTypes
+* invTraits
+* invTypes
 
 (1) The DAO layer will create the `dgmOperations` table from a static JSON file if it does not already exist. You will require write-access to your database for this to work.
 

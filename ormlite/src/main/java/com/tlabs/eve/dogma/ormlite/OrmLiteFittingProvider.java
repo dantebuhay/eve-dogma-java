@@ -21,7 +21,7 @@ public class OrmLiteFittingProvider implements FittingProvider {
     private final OrmLiteHelper helper;
 
     public OrmLiteFittingProvider() throws SQLException {
-        this("jdbc:sqlite:" + OrmLiteFittingProvider.class.getResource("/sdelite.sqlite").getFile());
+        this("jdbc:sqlite:" + OrmLiteFittingProvider.class.getResource("/dogma.sqlite").getFile());
     }
 
     public OrmLiteFittingProvider(final String jdbcUrl) throws SQLException {
