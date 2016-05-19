@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceCompatibility = JavaVersion.VERSION_1_7
+targetCompatibility = JavaVersion.VERSION_1_7
+
+buildscript {
+ repositories {
+        mavenCentral()
+        jcenter()
+    }
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    jcenter()
+}
+
+dependencies {
+    compile project(':engine')
+    compile project(':extra')
+    compile project(':ormlite')
+
+    testCompile 'junit:junit:4.12'
+    testRuntime 'org.xerial:sqlite-jdbc:3.8.+'
+}

@@ -1,0 +1,86 @@
+{
+  "fittings": [
+    {
+      "name": "Ibis - Ibis",
+      "description": "Civilian Ibis",
+      "shipType": "Ibis",
+      "hardware": [
+        {
+          "slot": "low slot 0",
+          "type": "Civilian Expanded Cargohold",
+          "quantity": ""
+        },
+        {
+          "slot": "low slot 1",
+          "type": "Civilian Expanded Cargohold",
+          "quantity": ""
+        },
+        {
+          "slot": "med slot 0",
+          "type": "1MN Civilian Afterburner",
+          "quantity": ""
+        },
+        {
+          "slot": "med slot 1",
+          "type": "Civilian EM Ward Field",
+          "quantity": ""
+        },
+        {
+          "slot": "hi slot 0",
+          "type": "Civilian Light Missile Launcher",
+          "quantity": ""
+        },
+        {
+          "slot": "hi slot 1",
+          "type": "Civilian Miner",
+          "quantity": ""
+        }
+      ]
+    },
+    {
+      "name": "Raven - Raven",
+      "description": "Braven",
+      "shipType": "Raven",
+      "hardware": [
+        {
+          "slot": "med slot 0",
+          "type": "Small Shield Extender II",
+          "quantity": ""
+        }
+      ]
+    },
+    {
+      "name": "Tengu - New Setup 1",
+      "description": "Blingu",
+      "shipType": "Tengu",
+      "hardware": [
+        {
+          "slot": "subsystem slot 0",
+          "type": "Tengu Defensive - Warfare Processor",
+          "quantity": ""
+        },
+        {
+          "slot": "subsystem slot 1",
+          "type": "Tengu Engineering - Capacitor Regeneration Matrix",
+          "quantity": ""
+        },
+        {
+          "slot": "subsystem slot 2",
+          "type": "Tengu Offensive - Magnetic Infusion Basin",
+          "quantity": ""
+        },
+        {
+          "slot": "subsystem slot 3",
+          "type": "Tengu Electronics - Dissolution Sequencer",
+          "quantity": ""
+        },
+        {
+          "slot": "subsystem slot 4",
+          "type": "Tengu Propulsion - Interdiction Nullifier",
+          "quantity": ""
+        }
+      ]
+    }
+  ]
+}
+    
