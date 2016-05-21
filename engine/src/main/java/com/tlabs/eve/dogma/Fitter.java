@@ -3,7 +3,7 @@ package com.tlabs.eve.dogma;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.lang3.Validate;
+import org.apache.commons.lang.Validate;
 import com.tlabs.eve.dogma.engine.FittingEngine;
 import com.tlabs.eve.dogma.engine.FittingModel;
 import com.tlabs.eve.dogma.model.Attribute;
@@ -150,12 +150,12 @@ public final class Fitter {
 
     public double getAttributeValue(final String attributeName) {
         final Double d = this.model.getAttributeValue(attributeName);
-        return (null == d) ? 0d : d.doubleValue();
+        return (null == d) ? 0d : d;
     }
 
     public double getAttributeValue(final int attributeID) {
         final Double d = this.model.getAttributeValue(attributeID);
-        return (null == d) ? 0d : d.doubleValue();
+        return (null == d) ? 0d : d;
     }
 
     public Attribute getAttribute(final String attributeName) {

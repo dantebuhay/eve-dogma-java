@@ -8,8 +8,8 @@ import org.apache.commons.jexl2.Expression;
 import org.apache.commons.jexl2.JexlContext;
 import org.apache.commons.jexl2.JexlEngine;
 import org.apache.commons.jexl2.MapContext;
-import org.apache.commons.lang3.ArrayUtils;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang.ArrayUtils;
+import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.tlabs.eve.dogma.Fitter;
@@ -193,7 +193,7 @@ public final class AttributeFormat {
     }
 
     public static String format(final long attrID, final float attrValue) {
-        final Format format = attributesFormat.get(Integer.valueOf((int)attrID));
+        final Format format = attributesFormat.get((int) attrID);
         if (null == format) {
             return defaultFormat.format(attrValue);
         }

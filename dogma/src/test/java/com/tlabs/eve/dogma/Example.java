@@ -2,7 +2,7 @@ package com.tlabs.eve.dogma;
 
 import java.util.List;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang.StringUtils;
 import org.junit.Assert;
 import org.junit.Test;
 import com.tlabs.eve.dogma.extra.format.FittingFormat;
