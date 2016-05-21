@@ -1,6 +1,6 @@
 package com.tlabs.eve.dogma.engine;
 
-import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 import com.tlabs.eve.dogma.model.Expression;
 
 final class RaiseErrorOperation extends AbstractFittingOperation {

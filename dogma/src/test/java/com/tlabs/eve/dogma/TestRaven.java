@@ -2,7 +2,7 @@ package com.tlabs.eve.dogma;
 
 import java.util.Map;
 
-import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.Ignore;
