@@ -6,7 +6,6 @@ group = 'com.tlabs.eve.dogma'
 version = '0.6'
 
 subprojects {
-
     group = 'com.tlabs.eve.dogma'
     version = '0.6'
 }
