@@ -1,3 +1,5 @@
+# THIS PROJECT IS OBSOLETE AND NO LONGER MAINTAINED
+
 # Eve Online Dogma Java Implementation
 
 A clean and built from the ground up Java implementation of the [Eve Online's Dogma calculations](https://github.com/ccpgames/eveonline-third-party-documentation/blob/master/docs/dogma/overview.md), which allows for building fitting tools and the like.
